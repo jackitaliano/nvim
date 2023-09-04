@@ -3,6 +3,7 @@ vim.g.maplocalleader = ' '
 
 vim.opt.tabstop = 2
 vim.opt.shiftwidth = 2
+vim.opt.splitright = true
 
 -- Install package manager
 --    https://github.com/folke/lazy.nvim
@@ -142,6 +143,7 @@ require('lazy').setup({
   },
 
   { import = 'plugins' },
+  { import = 'config' },
 }, {})
 
 -- Set highlight on search
