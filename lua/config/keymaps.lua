@@ -12,7 +12,7 @@ return {
 
   -- Splits
   vim.keymap.set("n", "<leader>-", "<C-W>s", { desc = "Split window below", remap = true }),
-  vim.keymap.set("n", "<leader>|", "<C-W>v", { desc = "Split window right", remap = true }),
+  vim.keymap.set("n", "<leader>\\", "<C-W>v", { desc = "Split window right", remap = true }),
 
   -- Move Lines
   vim.keymap.set("n", "<A-j>", "<cmd>m .+1<cr>==", { desc = "Move down" }),
